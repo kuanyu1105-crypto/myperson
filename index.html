@@ -1,1 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人介紹 | My Profile</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .card {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 350px;
+            width: 100%;
+        }
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: #eee;
+            margin-bottom: 1rem;
+            object-fit: cover;
+        }
+        h1 { color: #333; margin-bottom: 0.5rem; }
+        p { color: #666; line-height: 1.6; }
+        .tags { margin-top: 1rem; }
+        .tag {
+            display: inline-block;
+            background: #e1f5fe;
+            color: #0288d1;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            margin: 3px;
+        }
+    </style>
+</head>
+<body>
 
+<div class="card">
+    <img src="https://via.placeholder.com/150" alt="Profile" class="profile-pic">
+    <h1>你好，我是 [你的名字]</h1>
+    <p>熱衷於技術探索與生活分享。目前專注於網頁開發與個人專案建立。</p>
+    <div class="tags">
+        <span class="tag">#HTML5</span>
+        <span class="tag">#CSS3</span>
+        <span class="tag">#GitHub</span>
+        <span class="tag">#Render</span>
+    </div>
+</div>
+
+</body>
+</html>
